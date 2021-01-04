@@ -1,103 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>Hexo+Github=Blog</title>
-    <url>/2020/09/22/Hexo-Github-Blog/</url>
-    <content><![CDATA[<p>node git hexo github </p>
-<a id="more"></a>
-
-<h2 id="Before"><a href="#Before" class="headerlink" title="Before"></a>Before</h2><h3 id="Install-node"><a href="#Install-node" class="headerlink" title="Install node"></a>Install node</h3><p>From <a href="https://nodejs.org/en">official website</a>, we can install the package.</p>
-<h3 id="Install-git"><a href="#Install-git" class="headerlink" title="Install git"></a>Install git</h3><p>From <a href="https://git-scm.com/download/win">official website</a>, we can install the package.</p>
-<h3 id="Install-hexo"><a href="#Install-hexo" class="headerlink" title="Install hexo"></a>Install hexo</h3><p><code>mkdir myblog</code><br><code>cd myblog</code><br><code>npm install hexo-cli -g</code><br><code>hexo init</code></p>
-<h2 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h2><h3 id="Create-repository-on-github"><a href="#Create-repository-on-github" class="headerlink" title="Create repository on github"></a>Create repository on github</h3><p>Please follow <a href="https://pages.github.com/">instructions</a> to create a new repository.</p>
-<h3 id="Clone-repository"><a href="#Clone-repository" class="headerlink" title="Clone repository"></a>Clone repository</h3><p><code>git clone git@github.com:USERNAME/USERNAME.github.io.git</code></p>
-<h3 id="Generate-and-server"><a href="#Generate-and-server" class="headerlink" title="Generate and server"></a>Generate and server</h3><p><code>hexo generate </code></p>
-<p><code>hexo server</code></p>
-<h3 id="Configure-config-yml"><a href="#Configure-config-yml" class="headerlink" title="Configure __config.yml"></a>Configure <code>__config.yml</code></h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html</span><br><span class="line">deploy: </span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:USERNAME&#x2F;USERNAME.github.io.git</span><br></pre></td></tr></table></figure>
-
-<h3 id="Install-hexo-deployer-git"><a href="#Install-hexo-deployer-git" class="headerlink" title="Install hexo-deployer-git"></a>Install hexo-deployer-git</h3><p><code>npm install hexo-deployer-git -save</code></p>
-<h3 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h3><p><code>hexo deploy</code></p>
-<h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p><a href="https://username.github.io/">https://USERNAME.github.io</a></p>
-<h2 id="Change-the-theme"><a href="#Change-the-theme" class="headerlink" title="Change the theme?"></a>Change the theme?</h2><p>Change your blog’s theme: <a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
-<p>Download it and put it in <code>theme</code> directory</p>
-<p>Change the directory’s name:  <code>hexo-theme-next</code>-&gt;<code>next</code></p>
-<p>In <code>config.yml</code>:  <code>theme: next</code></p>
-<h2 id="New-post"><a href="#New-post" class="headerlink" title="New post?"></a>New post?</h2><p><code>hexo  new &quot;NEW POST&quot;</code></p>
-<p>edit <code>NEW POST.md</code></p>
-<p><code>hexo g -d</code></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title></title>
+      <link href="2021/01/04/New%20Markdown/"/>
+      <url>2021/01/04/New%20Markdown/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>王菲的一首歌</title>
+      <link href="2020/12/31/%E7%8E%8B%E8%8F%B2%E7%9A%84%E4%B8%80%E9%A6%96%E6%AD%8C/"/>
+      <url>2020/12/31/%E7%8E%8B%E8%8F%B2%E7%9A%84%E4%B8%80%E9%A6%96%E6%AD%8C/</url>
+      
+        <content type="html"><![CDATA[<p>最近发现一首好歌，王菲的，叫做《棋子》。</p><a id="more"></a><p>我并不太喜欢原专辑的那个版本，我更喜欢王菲2011巡唱台北小巨蛋站演绎的<a href="https://www.bilibili.com/video/BV1f4411J7qH/?spm_id_from=333.788.videocard.0">摇滚版《棋子》</a>。这个编曲把那种想要摆脱掌控却无法摆脱掌控的无力感表达得淋漓尽致。</p><p>B站用户<em>传闻中的郁知弦</em>如是评价：最喜欢这版编曲，大气磅礴，决绝哀郁。是尘埃落定后，清醒而至于彻骨的悲凉。字句随着鼓点幽幽实实旋入掌心，触手雪花般冰冷虚渺，如梦境。笛声缠绕萦纡，逃脱不开，像宿命。</p>]]></content>
+      
+      
       <categories>
-        <category>Tech</category>
+          
+          <category> Life </category>
+          
       </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>github</tag>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《科不分文理，地无问西东》</title>
-    <url>/2020/11/09/%E3%80%8A%E7%A7%91%E4%B8%8D%E5%88%86%E6%96%87%E7%90%86%EF%BC%8C%E5%9C%B0%E6%97%A0%E9%97%AE%E8%A5%BF%E4%B8%9C%E3%80%8B/</url>
-    <content><![CDATA[<p>这是我在好久之前看到，今天不知怎么的，突然想起来，是南大陈云松老师在新冠疫情期间给南大学子写的一封信。最喜欢其中的一句话：我们文科的同学，始终应该多了解一些数据的坚实；我们理科的同学，始终应该多体会一种时空的悲悯。让我们的情怀，因数据而具有逻辑和力量；让我们的逻辑，因精神而具有长存的品格。</p>
-<a id="more"></a>
-
-<p>文 | 陈云松</p>
-<p>来源 | 南京大学</p>
-<p>同学们：</p>
-<p>庚子新春之际，一场由新型冠状病毒引起的肺炎疫情牵动了亿万人心。疫情恰逢春节这一中国社会运行的节点，而武汉又为九省通衢。病毒蔓延之烈、防控任务之艰，建国以来实属罕有。好在旬月以来，十四亿人共克时艰、众志成城，疫情渐呈缓解之势。</p>
-<p>返校之前，大家如星辰散布、天各一方。但借助互联网，千里之遥仍可彼此告慰，足不出户亦能遍揽九州。互联网上的南大，和金陵古城中的南大，两处风景，一处乡心。就在月中，南大附院鼓楼医院的白衣战士们还在集结，自天津路向湖北、向武汉进发。那一天，全城的媒体都在传诵一句话：“吴地悬壶尽入楚,从此白衣做战袍。”在暮色中西行的白衣战士来自南大，写下诗句的周晓虹教授也来自南大。</p>
-<p>在疫情中，在远离南京的天涯海角，我们能做些什么？这场惊心动魄的人疫之战，普通人如你我，难以挺身直入战场。同学中的大多数，更非医学专业。但我总觉得，抗疫非仅是武汉之战、湖北之战、中国三百城市之役，它更是意志之搏斗、精神之检验、治世之大考。因此，它天然萦绕着悲天悯人的深刻情怀，更始终立足于严谨、求实的格物致知的浩荡精神。</p>
-<p>在疫情中，我和我的同事还有研究生同学们，做了一项微不足道但对我充满启示的研究。这段时间以来，是文科人推己及人的敏感，“书生报国无他物、唯有手中笔如刀”的焦灼，促使我和我的同事们放下手头的工作，试图为同样焦虑中的人们做些什么<strong>。是</strong>理科人的系统思维，让我直觉疫情对于城市的如山压力，乃是一种巨大的系统风险，绝不仅仅取决于每日媒体中播送的病患人数，而是受到交通、物资等多因素的影响<strong>。</strong>是社会科学的敏感又进一步提醒我，除了看得见的人流物流，我们还必须考虑信息流空间中所反映的社会心理、舆情态度、治理能力。在这样交融、交叉的融合思维中，我们通宵作战，整合了目前涉及疫情的全部多来源公开信息和海量的互联网大数据，以此来测量全国338个主要城市的疫情风险。我们抓紧上报，希望能为决策奉献一份力量。</p>
-<p>就在这短短的几周里，我愈加感到，越是面对纷繁复杂的社会现象，越是面临困难重重的治理任务，多学科交叉、文理融合的重要性就越发凸显。也因此，我希望我们南大的同学不带有一丝一毫的畛域之见，鄙视任何一种基于学科的鄙视链。我们文科的同学，始终应该多了解一些数据的坚实；我们理科的同学，始终应该多体会一种时空的悲悯。让我们的情怀，因数据而具有逻辑和力量；让我们的逻辑，因精神而具有长存的品格。</p>
-<p>始自三江汇流，百年以降，融会贯通、文理兼长，从来是南大的风神和底色。一所大学，唯有兼备“人文化成”与“格物致知”的使命，才能真正成为人类智识的殿堂；一种知识，唯有融合心灵的力量和科学的风纪，才是值得我们去为之终身渴求的志业。</p>
-<p>所以，同学们，多思，多读，多观察，多体悟，更要多融合，多触及，多让心灵开放。你我在这场战役中，科不分文理，地无问东西。在无情的疫情面前，每个南大人所能竭力奉献同胞的，一份报告，一次实验，一首诗歌，一次转发，一场讨论，一轮思考，都是那么细微和不足道。但恰恰是这些微不足道的点滴，汇聚成了南大人精忠报国的巨大洪流。这些洪流从你所在的家乡，从中国万里河川的每一处角落，汇聚到我们内心的深处，也将汇流到疫情过后的南京，我们美丽的南大校园。</p>
-<p>在象征着科学力量的化学楼旁，坐落着苏州校友捐献的古典园林“香雪海”。在仙林南雍，在九乡长河之畔，古典与现代，科学与人文，有着浑然一体的融合。这并非偶然，因为它隐喻了南大的源流和精神。无论是疫情风雨如晦之时，还是国家春暖花开之际，让我们重温这照壁上的一副对联：</p>
-<p>十亩冷云，何处飞来香雪海，添南雍励学敦行之外，一段凌霜春色；</p>
-<p>三江英俊，此间长绕风雨声，养天下朴诚雄伟于中，百年勖士精神！</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 王菲 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《科不分文理，地无问西东》</title>
+      <link href="2020/11/09/%E3%80%8A%E7%A7%91%E4%B8%8D%E5%88%86%E6%96%87%E7%90%86%EF%BC%8C%E5%9C%B0%E6%97%A0%E9%97%AE%E8%A5%BF%E4%B8%9C%E3%80%8B/"/>
+      <url>2020/11/09/%E3%80%8A%E7%A7%91%E4%B8%8D%E5%88%86%E6%96%87%E7%90%86%EF%BC%8C%E5%9C%B0%E6%97%A0%E9%97%AE%E8%A5%BF%E4%B8%9C%E3%80%8B/</url>
+      
+        <content type="html"><![CDATA[<p>这是我在好久之前看到，今天不知怎么的，突然想起来，是南大陈云松老师在新冠疫情期间给南大学子写的一封信。最喜欢其中的一句话：我们文科的同学，始终应该多了解一些数据的坚实；我们理科的同学，始终应该多体会一种时空的悲悯。让我们的情怀，因数据而具有逻辑和力量；让我们的逻辑，因精神而具有长存的品格。</p><a id="more"></a><p>文 | 陈云松</p><p>来源 | 南京大学</p><p>同学们：</p><p>庚子新春之际，一场由新型冠状病毒引起的肺炎疫情牵动了亿万人心。疫情恰逢春节这一中国社会运行的节点，而武汉又为九省通衢。病毒蔓延之烈、防控任务之艰，建国以来实属罕有。好在旬月以来，十四亿人共克时艰、众志成城，疫情渐呈缓解之势。</p><p>返校之前，大家如星辰散布、天各一方。但借助互联网，千里之遥仍可彼此告慰，足不出户亦能遍揽九州。互联网上的南大，和金陵古城中的南大，两处风景，一处乡心。就在月中，南大附院鼓楼医院的白衣战士们还在集结，自天津路向湖北、向武汉进发。那一天，全城的媒体都在传诵一句话：“吴地悬壶尽入楚,从此白衣做战袍。”在暮色中西行的白衣战士来自南大，写下诗句的周晓虹教授也来自南大。</p><p>在疫情中，在远离南京的天涯海角，我们能做些什么？这场惊心动魄的人疫之战，普通人如你我，难以挺身直入战场。同学中的大多数，更非医学专业。但我总觉得，抗疫非仅是武汉之战、湖北之战、中国三百城市之役，它更是意志之搏斗、精神之检验、治世之大考。因此，它天然萦绕着悲天悯人的深刻情怀，更始终立足于严谨、求实的格物致知的浩荡精神。</p><p>在疫情中，我和我的同事还有研究生同学们，做了一项微不足道但对我充满启示的研究。这段时间以来，是文科人推己及人的敏感，“书生报国无他物、唯有手中笔如刀”的焦灼，促使我和我的同事们放下手头的工作，试图为同样焦虑中的人们做些什么<strong>。是</strong>理科人的系统思维，让我直觉疫情对于城市的如山压力，乃是一种巨大的系统风险，绝不仅仅取决于每日媒体中播送的病患人数，而是受到交通、物资等多因素的影响<strong>。</strong>是社会科学的敏感又进一步提醒我，除了看得见的人流物流，我们还必须考虑信息流空间中所反映的社会心理、舆情态度、治理能力。在这样交融、交叉的融合思维中，我们通宵作战，整合了目前涉及疫情的全部多来源公开信息和海量的互联网大数据，以此来测量全国338个主要城市的疫情风险。我们抓紧上报，希望能为决策奉献一份力量。</p><p>就在这短短的几周里，我愈加感到，越是面对纷繁复杂的社会现象，越是面临困难重重的治理任务，多学科交叉、文理融合的重要性就越发凸显。也因此，我希望我们南大的同学不带有一丝一毫的畛域之见，鄙视任何一种基于学科的鄙视链。我们文科的同学，始终应该多了解一些数据的坚实；我们理科的同学，始终应该多体会一种时空的悲悯。让我们的情怀，因数据而具有逻辑和力量；让我们的逻辑，因精神而具有长存的品格。</p><p>始自三江汇流，百年以降，融会贯通、文理兼长，从来是南大的风神和底色。一所大学，唯有兼备“人文化成”与“格物致知”的使命，才能真正成为人类智识的殿堂；一种知识，唯有融合心灵的力量和科学的风纪，才是值得我们去为之终身渴求的志业。</p><p>所以，同学们，多思，多读，多观察，多体悟，更要多融合，多触及，多让心灵开放。你我在这场战役中，科不分文理，地无问东西。在无情的疫情面前，每个南大人所能竭力奉献同胞的，一份报告，一次实验，一首诗歌，一次转发，一场讨论，一轮思考，都是那么细微和不足道。但恰恰是这些微不足道的点滴，汇聚成了南大人精忠报国的巨大洪流。这些洪流从你所在的家乡，从中国万里河川的每一处角落，汇聚到我们内心的深处，也将汇流到疫情过后的南京，我们美丽的南大校园。</p><p>在象征着科学力量的化学楼旁，坐落着苏州校友捐献的古典园林“香雪海”。在仙林南雍，在九乡长河之畔，古典与现代，科学与人文，有着浑然一体的融合。这并非偶然，因为它隐喻了南大的源流和精神。无论是疫情风雨如晦之时，还是国家春暖花开之际，让我们重温这照壁上的一副对联：</p><p>十亩冷云，何处飞来香雪海，添南雍励学敦行之外，一段凌霜春色；</p><p>三江英俊，此间长绕风雨声，养天下朴诚雄伟于中，百年勖士精神！</p>]]></content>
+      
+      
       <categories>
-        <category>Life</category>
+          
+          <category> Life </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>关于保护眼睛我能做的</title>
-    <url>/2020/10/16/%E5%85%B3%E4%BA%8E%E4%BF%9D%E6%8A%A4%E7%9C%BC%E7%9D%9B%E6%88%91%E8%83%BD%E5%81%9A%E7%9A%84/</url>
-    <content><![CDATA[<p>最近使用电子产品的频率和时间明显增多了，时不时还会感到眼睛干涩。所以呢，我想应该可以从日常生活习惯上做起，开始注意眼睛的保护。</p>
-<a id="more"></a>
-
-<h2 id="电子产品对眼睛的伤害"><a href="#电子产品对眼睛的伤害" class="headerlink" title="电子产品对眼睛的伤害"></a>电子产品对眼睛的伤害</h2><p>对眼睛有一定伤害的，一是紫外线，二是电子产品，电子产品为主。</p>
-<h3 id="距离"><a href="#距离" class="headerlink" title="距离"></a>距离</h3><p>长时间短距离的使用电子产品是眼部肌肉长时间紧张，无法得到放松，视疲劳便产生了。</p>
-<h3 id="蓝光"><a href="#蓝光" class="headerlink" title="蓝光"></a>蓝光</h3><p>不同于自然光，电子产品的蓝光对眼睛有伤害。</p>
-<h3 id="眨眼次数减少"><a href="#眨眼次数减少" class="headerlink" title="眨眼次数减少"></a>眨眼次数减少</h3><p>专心看某样东西时，眼睛会自动减少眨眼的频率，眨眼次数减少，泪液对于眼睛的湿润和保护便会减少，眼睛干涩和疲劳便会形成。</p>
-<h2 id="如何做"><a href="#如何做" class="headerlink" title="如何做"></a>如何做</h2><h3 id="日常万能做法"><a href="#日常万能做法" class="headerlink" title="日常万能做法"></a>日常万能做法</h3><h4 id="多喝水"><a href="#多喝水" class="headerlink" title="多喝水"></a>多喝水</h4><h4 id="户外运动"><a href="#户外运动" class="headerlink" title="户外运动"></a>户外运动</h4><h4 id="充足睡眠"><a href="#充足睡眠" class="headerlink" title="充足睡眠"></a>充足睡眠</h4><h4 id="均衡饮食"><a href="#均衡饮食" class="headerlink" title="均衡饮食"></a>均衡饮食</h4><h3 id="从距离入手"><a href="#从距离入手" class="headerlink" title="从距离入手"></a>从距离入手</h3><p>20-20原则：近距离长时间使用电子产品或者读书写字时，每20分钟向远处望20秒。</p>
-<h3 id="从蓝光入手"><a href="#从蓝光入手" class="headerlink" title="从蓝光入手"></a>从蓝光入手</h3><p>使用蓝光眼镜或者电子产品滤蓝光贴膜</p>
-<h3 id="从眼睛自我调节入手"><a href="#从眼睛自我调节入手" class="headerlink" title="从眼睛自我调节入手"></a>从眼睛自我调节入手</h3><p>热敷改善眼部血液循环，增强泪液分泌。遵医嘱使用人工眼泪。</p>
-<h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>热敷</p>
-<p>遵医嘱使用人工眼泪</p>
-<p>环境光线不要太暗</p>
-<p>佩戴太阳眼镜</p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>1.<a href="https://www.cdstm.cn/theme/kkxw/dyd/kxgs/201911/t20191113_930735.html#:~:text=%E4%B8%BA%E4%BA%86%E4%BF%9D%E6%8A%A4%E8%A7%86%E5%8A%9B%E8%80%8C%E5%BD%BB%E5%BA%95,%E6%94%BE%E6%9D%BE%EF%BC%8C%E9%81%BF%E5%85%8D%E6%8C%81%E7%BB%AD%E8%A7%86%E7%96%B2%E5%8A%B3%E3%80%82">https://www.cdstm.cn/theme/kkxw/dyd/kxgs/201911/t20191113_930735.html#:~:text=%E4%B8%BA%E4%BA%86%E4%BF%9D%E6%8A%A4%E8%A7%86%E5%8A%9B%E8%80%8C%E5%BD%BB%E5%BA%95,%E6%94%BE%E6%9D%BE%EF%BC%8C%E9%81%BF%E5%85%8D%E6%8C%81%E7%BB%AD%E8%A7%86%E7%96%B2%E5%8A%B3%E3%80%82</a></p>
-<p>2.<a href="https://www.zhihu.com/question/22733351">https://www.zhihu.com/question/22733351</a></p>
-<p>3.<a href="https://event.udn.com/dietu/44_02/main04.html">https://event.udn.com/dietu/44_02/main04.html</a></p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于保护眼睛我能做的</title>
+      <link href="2020/10/16/%E5%85%B3%E4%BA%8E%E4%BF%9D%E6%8A%A4%E7%9C%BC%E7%9D%9B%E6%88%91%E8%83%BD%E5%81%9A%E7%9A%84/"/>
+      <url>2020/10/16/%E5%85%B3%E4%BA%8E%E4%BF%9D%E6%8A%A4%E7%9C%BC%E7%9D%9B%E6%88%91%E8%83%BD%E5%81%9A%E7%9A%84/</url>
+      
+        <content type="html"><![CDATA[<p>最近使用电子产品的频率和时间明显增多了，时不时还会感到眼睛干涩。所以呢，我想应该可以从日常生活习惯上做起，开始注意眼睛的保护。</p><a id="more"></a><h2 id="电子产品对眼睛的伤害"><a href="#电子产品对眼睛的伤害" class="headerlink" title="电子产品对眼睛的伤害"></a>电子产品对眼睛的伤害</h2><p>对眼睛有一定伤害的，一是紫外线，二是电子产品，电子产品为主。</p><h3 id="距离"><a href="#距离" class="headerlink" title="距离"></a>距离</h3><p>长时间短距离的使用电子产品是眼部肌肉长时间紧张，无法得到放松，视疲劳便产生了。</p><h3 id="蓝光"><a href="#蓝光" class="headerlink" title="蓝光"></a>蓝光</h3><p>不同于自然光，电子产品的蓝光对眼睛有伤害。</p><h3 id="眨眼次数减少"><a href="#眨眼次数减少" class="headerlink" title="眨眼次数减少"></a>眨眼次数减少</h3><p>专心看某样东西时，眼睛会自动减少眨眼的频率，眨眼次数减少，泪液对于眼睛的湿润和保护便会减少，眼睛干涩和疲劳便会形成。</p><h2 id="如何做"><a href="#如何做" class="headerlink" title="如何做"></a>如何做</h2><h3 id="日常万能做法"><a href="#日常万能做法" class="headerlink" title="日常万能做法"></a>日常万能做法</h3><h4 id="多喝水"><a href="#多喝水" class="headerlink" title="多喝水"></a>多喝水</h4><h4 id="户外运动"><a href="#户外运动" class="headerlink" title="户外运动"></a>户外运动</h4><h4 id="充足睡眠"><a href="#充足睡眠" class="headerlink" title="充足睡眠"></a>充足睡眠</h4><h4 id="均衡饮食"><a href="#均衡饮食" class="headerlink" title="均衡饮食"></a>均衡饮食</h4><h3 id="从距离入手"><a href="#从距离入手" class="headerlink" title="从距离入手"></a>从距离入手</h3><p>20-20原则：近距离长时间使用电子产品或者读书写字时，每20分钟向远处望20秒。</p><h3 id="从蓝光入手"><a href="#从蓝光入手" class="headerlink" title="从蓝光入手"></a>从蓝光入手</h3><p>使用蓝光眼镜或者电子产品滤蓝光贴膜</p><h3 id="从眼睛自我调节入手"><a href="#从眼睛自我调节入手" class="headerlink" title="从眼睛自我调节入手"></a>从眼睛自我调节入手</h3><p>热敷改善眼部血液循环，增强泪液分泌。遵医嘱使用人工眼泪。</p><h3 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h3><p>热敷</p><p>遵医嘱使用人工眼泪</p><p>环境光线不要太暗</p><p>佩戴太阳眼镜</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>1.<a href="https://www.cdstm.cn/theme/kkxw/dyd/kxgs/201911/t20191113_930735.html#:~:text=%E4%B8%BA%E4%BA%86%E4%BF%9D%E6%8A%A4%E8%A7%86%E5%8A%9B%E8%80%8C%E5%BD%BB%E5%BA%95,%E6%94%BE%E6%9D%BE%EF%BC%8C%E9%81%BF%E5%85%8D%E6%8C%81%E7%BB%AD%E8%A7%86%E7%96%B2%E5%8A%B3%E3%80%82">https://www.cdstm.cn/theme/kkxw/dyd/kxgs/201911/t20191113_930735.html#:~:text=%E4%B8%BA%E4%BA%86%E4%BF%9D%E6%8A%A4%E8%A7%86%E5%8A%9B%E8%80%8C%E5%BD%BB%E5%BA%95,%E6%94%BE%E6%9D%BE%EF%BC%8C%E9%81%BF%E5%85%8D%E6%8C%81%E7%BB%AD%E8%A7%86%E7%96%B2%E5%8A%B3%E3%80%82</a></p><p>2.<a href="https://www.zhihu.com/question/22733351">https://www.zhihu.com/question/22733351</a></p><p>3.<a href="https://event.udn.com/dietu/44_02/main04.html">https://event.udn.com/dietu/44_02/main04.html</a></p>]]></content>
+      
+      
       <categories>
-        <category>Life</category>
+          
+          <category> Life </category>
+          
       </categories>
-  </entry>
-  <entry>
-    <title>王菲的一首歌</title>
-    <url>/2020/12/31/%E7%8E%8B%E8%8F%B2%E7%9A%84%E4%B8%80%E9%A6%96%E6%AD%8C/</url>
-    <content><![CDATA[<p>最近发现一首好歌，王菲的，叫做《棋子》。</p>
-<a id="more"></a>
-
-<p>我并不太喜欢原专辑的那个版本，我更喜欢王菲2011巡唱台北小巨蛋站演绎的<a href="https://www.bilibili.com/video/BV1f4411J7qH/?spm_id_from=333.788.videocard.0">摇滚版《棋子》</a>。这个编曲把那种想要摆脱掌控却无法摆脱掌控的无力感表达得淋漓尽致。</p>
-<p>B站用户<em>传闻中的郁知弦</em>如是评价：最喜欢这版编曲，大气磅礴，决绝哀郁。是尘埃落定后，清醒而至于彻骨的悲凉。字句随着鼓点幽幽实实旋入掌心，触手雪花般冰冷虚渺，如梦境。笛声缠绕萦纡，逃脱不开，像宿命。</p>
-]]></content>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo+Github=Blog</title>
+      <link href="2020/09/22/Hexo-Github-Blog/"/>
+      <url>2020/09/22/Hexo-Github-Blog/</url>
+      
+        <content type="html"><![CDATA[<p>node git hexo github </p><a id="more"></a><h2 id="Before"><a href="#Before" class="headerlink" title="Before"></a>Before</h2><h3 id="Install-node"><a href="#Install-node" class="headerlink" title="Install node"></a>Install node</h3><p>From <a href="https://nodejs.org/en">official website</a>, we can install the package.</p><h3 id="Install-git"><a href="#Install-git" class="headerlink" title="Install git"></a>Install git</h3><p>From <a href="https://git-scm.com/download/win">official website</a>, we can install the package.</p><h3 id="Install-hexo"><a href="#Install-hexo" class="headerlink" title="Install hexo"></a>Install hexo</h3><p><code>mkdir myblog</code><br><code>cd myblog</code><br><code>npm install hexo-cli -g</code><br><code>hexo init</code></p><h2 id="Steps"><a href="#Steps" class="headerlink" title="Steps"></a>Steps</h2><h3 id="Create-repository-on-github"><a href="#Create-repository-on-github" class="headerlink" title="Create repository on github"></a>Create repository on github</h3><p>Please follow <a href="https://pages.github.com/">instructions</a> to create a new repository.</p><h3 id="Clone-repository"><a href="#Clone-repository" class="headerlink" title="Clone repository"></a>Clone repository</h3><p><code>git clone git@github.com:USERNAME/USERNAME.github.io.git</code></p><h3 id="Generate-and-server"><a href="#Generate-and-server" class="headerlink" title="Generate and server"></a>Generate and server</h3><p><code>hexo generate </code></p><p><code>hexo server</code></p><h3 id="Configure-config-yml"><a href="#Configure-config-yml" class="headerlink" title="Configure __config.yml"></a>Configure <code>__config.yml</code></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:&#x2F;&#x2F;hexo.io&#x2F;docs&#x2F;deployment.html</span><br><span class="line">deploy: </span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:USERNAME&#x2F;USERNAME.github.io.git</span><br></pre></td></tr></table></figure><h3 id="Install-hexo-deployer-git"><a href="#Install-hexo-deployer-git" class="headerlink" title="Install hexo-deployer-git"></a>Install hexo-deployer-git</h3><p><code>npm install hexo-deployer-git -save</code></p><h3 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h3><p><code>hexo deploy</code></p><h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2><p><a href="https://username.github.io/">https://USERNAME.github.io</a></p><h2 id="Change-the-theme"><a href="#Change-the-theme" class="headerlink" title="Change the theme?"></a>Change the theme?</h2><p>Change your blog’s theme: <a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p><p>Download it and put it in <code>theme</code> directory</p><p>Change the directory’s name:  <code>hexo-theme-next</code>-&gt;<code>next</code></p><p>In <code>config.yml</code>:  <code>theme: next</code></p><h2 id="New-post"><a href="#New-post" class="headerlink" title="New post?"></a>New post?</h2><p><code>hexo  new &quot;NEW POST&quot;</code></p><p>edit <code>NEW POST.md</code></p><p><code>hexo g -d</code></p>]]></content>
+      
+      
       <categories>
-        <category>Life</category>
+          
+          <category> Tech </category>
+          
       </categories>
-      <tags>
-        <tag>王菲</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> github </tag>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
